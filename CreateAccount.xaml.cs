@@ -35,14 +35,15 @@ namespace MemoryGameSecure
             // save the user inputs
             string Username = txtUsername.Text;
             string Email = txtEmail.Text;
-            string Password = txtPassword.Text;
-            string PassCheck = txtPassCheck.Text;
+            string Password = psbPass.Password.ToString();
+            string PassCheck = psbPassCheck.Password.ToString();
+
 
             // Sanitize the inputs
             Username = sanitize(Username);
             Email = sanitize(Email);
             Password = sanitize(Password);
-
+            
             // Make sure email is in a valid form
             Boolean isEmailGood = false;
             isEmailGood = isGoodEmail(Email, isEmailGood);
@@ -141,10 +142,10 @@ namespace MemoryGameSecure
                         lblMessage.Background = new SolidColorBrush(Color.FromRgb(34, 190, 34));
 
                         // disable input fields
-                        txtPassword.Visibility = Visibility.Hidden;
                         txtUsername.Visibility = Visibility.Hidden;
                         txtEmail.Visibility = Visibility.Hidden;
-                        txtPassCheck.Visibility = Visibility.Hidden;
+                        psbPassCheck.Visibility = Visibility.Hidden;
+                        psbPass.Visibility = Visibility.Hidden;
 
 
                     }

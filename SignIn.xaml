@@ -11,14 +11,14 @@
         <Label x:Name="lblEmail" Content="Email:" HorizontalAlignment="Left" Margin="15,59,0,0" VerticalAlignment="Top" Height="34" Width="127"/>
         <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="15,111,0,0" VerticalAlignment="Top" Height="29" Width="96"/>
 
-        
+
         <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="92,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" Height="26"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="92,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" Height="26"/>
 
         <Button x:Name="btnSubmit" Content="Submit" Click="btnSubmitClick" HorizontalAlignment="Left" Margin="15,173,0,0" VerticalAlignment="Top" Height="44" Width="127"/>
         <Button x:Name="btnCreateAccount" Content="Create Account" Click="btnCreateAccountClick" HorizontalAlignment="Left" Margin="15,243,0,0" VerticalAlignment="Top" Height="44" Width="127"/>
-        
+
         <Label x:Name="lblMessage" Content="" HorizontalAlignment="Left" Margin="252,173,0,0" VerticalAlignment="Top" Height="114" Width="309"/>
+        <PasswordBox x:Name="psbPassword" HorizontalAlignment="Left" Margin="92,111,0,0" VerticalAlignment="Top" Width="223" Height="27"/>
 
     </Grid>
 </Window>

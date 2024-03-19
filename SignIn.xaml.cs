@@ -44,7 +44,7 @@ namespace MemoryGameSecure
         {
             // Store the user inputs
             string email = txtEmail.Text;
-            string password = txtPassword.Text;
+            string password = psbPassword.Password.ToString();
 
             Boolean isPass = false;
             Boolean isEmail = false;

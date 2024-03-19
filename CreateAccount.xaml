@@ -14,14 +14,14 @@
         <Label Content="Password: " HorizontalAlignment="Left" Margin="76,177,0,0" VerticalAlignment="Top" Width="107"/>
         <Label Content="Password verify:" HorizontalAlignment="Left" Margin="76,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.483,-0.679" Width="107"/>
 
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Margin="188,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="188,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="188,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtPassCheck" HorizontalAlignment="Left" Margin="188,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Margin="188,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="188,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156"/>
+
         <Button x:Name="btnSubmit" Content="Submit" Click="btnSubmitClick" HorizontalAlignment="Left" Margin="76,274,0,0" VerticalAlignment="Top" Height="34" Width="107" RenderTransformOrigin="0.307,0.442"/>
         <Button x:Name="btnGoToSignIn" Content="Sign In Page" Click="btnGoToSignInClick" HorizontalAlignment="Left" Margin="76,329,0,0" VerticalAlignment="Top" Height="50" Width="107"/>
         <Label x:Name="lblMessage" Content="" HorizontalAlignment="Left" Margin="374,107,0,0" VerticalAlignment="Top" Height="83" Width="389"/>
+        <PasswordBox x:Name="psbPass" HorizontalAlignment="Left" Margin="188,185,0,0" VerticalAlignment="Top" Width="156"/>
+        <PasswordBox x:Name="psbPassCheck" HorizontalAlignment="Left" Margin="188,221,0,0" VerticalAlignment="Top" Width="156"/>
 
 
 
