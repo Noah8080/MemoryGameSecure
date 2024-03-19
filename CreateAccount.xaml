@@ -1,0 +1,29 @@
+﻿<Window x:Class="MemoryGameSecure.CreateAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryGameSecure"
+        mc:Ignorable="d"
+        Title="CreateAccount" Height="450" Width="800" Background="LightPink">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1195,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="lblHeading" Content="Create An Account" FontSize="20" HorizontalAlignment="Left" Margin="76,52,0,0" VerticalAlignment="Top" Height="42" Width="192"/>
+        <Label x:Name="lblUsername" Content="Username:" HorizontalAlignment="Left" Margin="76,99,0,0" VerticalAlignment="Top" Height="34" Width="128"/>
+        <Label x:Name="lblPassword" Content="Email:" HorizontalAlignment="Left" Margin="76,138,0,0" VerticalAlignment="Top" Height="29" Width="107"/>
+        <Label Content="Password: " HorizontalAlignment="Left" Margin="76,177,0,0" VerticalAlignment="Top" Width="107"/>
+        <Label Content="Password verify:" HorizontalAlignment="Left" Margin="76,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.483,-0.679" Width="107"/>
+
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Margin="188,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="188,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="188,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPassCheck" HorizontalAlignment="Left" Margin="188,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        
+        <Button x:Name="btnSubmit" Content="Submit" Click="btnSubmitClick" HorizontalAlignment="Left" Margin="76,274,0,0" VerticalAlignment="Top" Height="34" Width="107" RenderTransformOrigin="0.307,0.442"/>
+        <Button x:Name="btnGoToSignIn" Content="Sign In Page" Click="btnGoToSignInClick" HorizontalAlignment="Left" Margin="76,329,0,0" VerticalAlignment="Top" Height="50" Width="107"/>
+        <Label x:Name="lblMessage" Content="" HorizontalAlignment="Left" Margin="374,107,0,0" VerticalAlignment="Top" Height="83" Width="389"/>
+
+
+
+    </Grid>
+</Window>

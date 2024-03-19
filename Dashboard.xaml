@@ -1,0 +1,31 @@
+﻿<Window x:Class="MemoryGameSecure.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryGameSecure"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="450" Width="800" Background="Bisque">
+    <Grid>
+        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Center" FontSize="13px" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="AliceBlue"  Margin="0,23,0,0" VerticalAlignment="Top" Height="54" Width="706"/>
+        <Label x:Name="lblSelector" Content="" Background="AliceBlue" HorizontalAlignment="Left" Height="30" Margin="47,106,0,0" VerticalAlignment="Top" Width="490"/>
+        <ComboBox x:Name="cmbLengthSelector" HorizontalAlignment="Left" Margin="47,169,0,0" VerticalAlignment="Top" Width="116" Height="32"/>
+        <Button x:Name="btnStart" Click="btnStartClick" Content="Start" HorizontalAlignment="Left" Margin="47,217,0,0" VerticalAlignment="Top" Height="41" Width="75"/>
+        <Label x:Name="lblShowNumLen" Content="" HorizontalAlignment="Left" Margin="561,108,0,0" VerticalAlignment="Top" Width="192"/>
+        <Label x:Name="lblDisplayAnswer" Content="" Background="Cornsilk" HorizontalAlignment="Left" Margin="361,154,0,0" VerticalAlignment="Top" Height="31" Width="246"/>
+        <Label x:Name="lblPoint" Content="Enter your response here:" Visibility="Hidden" HorizontalAlignment="Left" Height="37" Margin="204,201,0,0" VerticalAlignment="Top" Width="154"/>
+        <TextBox x:Name="txtResponse" Visibility="Hidden" HorizontalAlignment="Left" Margin="361,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="246" Height="37"/>
+        <Button x:Name="btnSubmitGuess" Visibility="Hidden" Click="btnSubmitGuessClick" Content="Submit guess" HorizontalAlignment="Left" Margin="484,249,0,0" VerticalAlignment="Top" Height="31" Width="84"/>
+        <Button x:Name="btnStartGuess" Click="btnStartGuessClick" Visibility="Hidden"  Content="Start guess" HorizontalAlignment="Left" Margin="361,249,0,0" VerticalAlignment="Top" Height="31" Width="75"/>
+        <Label x:Name="lblShowTime" Content="time past: " Visibility="Hidden" HorizontalAlignment="Left" Margin="105,328,0,0" VerticalAlignment="Top" Height="34" Width="253"/>
+        <Label x:Name="lblReveal" HorizontalAlignment="Left" Margin="377,310,0,0" VerticalAlignment="Top" Height="35" Width="149"/>
+        <Button x:Name="btnExit" Click="btnExitClick" Content="Exit" HorizontalAlignment="Left" Margin="657,374,0,0" VerticalAlignment="Top" Height="28" Width="88"/>
+        <Button x:Name="btnPlayAgain" Click="btnPlayAgainClick" Content="Play Again" HorizontalAlignment="Left" Margin="377,374,0,0" VerticalAlignment="Top" Height="28" Width="110" RenderTransformOrigin="0.93,0.841"/>
+        <Label x:Name="lblWarning" Content="" HorizontalAlignment="Left" Height="23" Margin="432,316,0,0" VerticalAlignment="Top" Width="130"/>
+        <Button x:Name="btnGoHome" Click="btnGoHomeClick" Content="Go to the home Page" HorizontalAlignment="Left" Margin="497,374,0,0" VerticalAlignment="Top" Height="28" Width="141"/>
+        <Button x:Name="btnSaveResult" Click="btnSaveResultClick" Content="Save Result" HorizontalAlignment="Left" Margin="657,328,0,0" VerticalAlignment="Top" Height="34" Width="96"/>
+        <Button x:Name="btnViewResults" Content="View Results" Click="btnViewResultsClick" HorizontalAlignment="Left" Margin="272,374,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.406,1.713" Height="28" Width="86"/>
+
+
+    </Grid>
+</Window>
